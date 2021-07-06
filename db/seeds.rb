@@ -8,14 +8,14 @@
 
 
 
-shoulders = Journal.create([{ name: 'Shoulders'}])
-legs = Journal.create([{ name: "Legs"}])
-chest = Journal.create([{ name: "Chest"}])
-arms = Journal.create([{ name: "Arms"}])
+# shoulders = Journal.create([{ name: 'shoulders'}])
+# legs = Journal.create([{ name: 'legs'}])
+# chest = Journal.create([{ name: 'chest'}])
+# arms = Journal.create([{ name: 'arms'}])
 
 Workout.create([
-    { name: 'Hunchback', journal: shoulders},
-    { name: 'Little Fingers', journal: arms},
-    { name: 'Cereal Bowl', journal: chest},
-    { name: 'Tarantino', journal: legs}
+    { name: 'Hunchback', journal_id: 1},
+    { name: 'Tarantino', journal_id: 2},
+    { name: 'Cereal Bowl', journal_id: 3},
+    { name: 'Little Fingers', journal_id: 4}
 ])
