@@ -4,9 +4,9 @@ class WorkoutsController < ApplicationController
 
   # GET /workouts
   def index
-    @workouts = Workout.all
+    @journal = Journal.find(params[:journal_id])
 
-    render json: @workouts
+    render json: @journal.workouts
   end
 
   # GET /workouts/1
