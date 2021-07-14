@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Workout Log
 
-Things you may want to cover:
+# Overview
 
-* Ruby version
+This is the Rails API built to log workouts to a journal so users can keep track of some their favorites.
 
-* System dependencies
+# Configuration
+This application uses the powers of Ruby on Rails, JavaScript, HTML, and CSS.
 
-* Configuration
+# Installation
+Copy and past the following in your terminal: git clone git@github.com:spotswoodb/workout_api/.git. Continue by typing 'cd workout_api' to enter the workout_api folder.
 
-* Database creation
+# Contributing
+Follow the link https://github.com/spotswoodb/workout_api for any pull requests.
 
-* Database initialization
+# Files
+The Workout Log follows the conventional MVC model framework. Controllers act as the middle-man between models and views in the application.
 
-* How to run the test suite
+# License
+The app is available as open source under the terms of the MIT License.
 
-* Services (job queues, cache servers, search engines, etc.)
+# Credits
+This project was made possible by the knowledge gained in the Flatiron School Software Engineering curriculum.
 
-* Deployment instructions
-
-* ...
+# Contact
+Reach out to Ben at spotswoodb@gmail.com with any questions, comments, or concerns!
