@@ -40,6 +40,7 @@ class WorkoutsController < ApplicationController
   # DELETE /workouts/1
   def destroy
     @workout.destroy
+    render json: {message: 'Workout successfully deleted'}
   end
 
   private

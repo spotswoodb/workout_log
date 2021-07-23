@@ -13,9 +13,9 @@
 # chest = Journal.create([{ name: 'chest'}])
 # arms = Journal.create([{ name: 'arms'}])
 
-Workout.create([
-    { name: 'Hunchback', journal_id: 1},
-    { name: 'Tarantino', journal_id: 2},
-    { name: 'Cereal Bowl', journal_id: 3},
-    { name: 'Little Fingers', journal_id: 4}
-])
+# Workout.create([
+#     { name: 'Hunchback', journal_id: 1},
+#     { name: 'Tarantino', journal_id: 2},
+#     # { name: 'Cereal Bowl', journal_id: 3},
+#     { name: 'Little Fingers', journal_id: 4}
+# ])
